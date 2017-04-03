@@ -28,7 +28,19 @@ double median(double nums[], int n)
 }
 double standardDeviation(double nums[], int n)
 {
-	
+	double standardDeviation = 0.0;
+
+	double avg = 0.0, sum = 0.0;
+	for (int i = 0; i < n; ++i) {
+		sum += nums[i];
+	}
+	avg = sum / n;
+
+	for (int i = 0; i < n; ++i) {
+		standardDeviation += pow(nums[i] - avg, 2);
+	}
+
+	return sqrt(standardDeviation / n);
 }
 double min(double nums[], int n)
 {
