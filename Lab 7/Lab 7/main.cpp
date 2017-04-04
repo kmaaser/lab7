@@ -7,12 +7,12 @@ int main()
 {
 	double storedvalues;
 	int number = 0, i;
-	int vaule = 0;
-	const int value2 = value;
-
+	int value = 0;
+	
 	cout << "Enter number of values: ";
 	cin >> value;
-	int myarray[value];
+	const int value2 = value;
+	int myarray[value2];
 
 	do {
 		cout << "Enter number " << number + 1 << " : " << endl;
