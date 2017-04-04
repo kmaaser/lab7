@@ -28,7 +28,7 @@ double median(double nums[], int n)
 }
 double standardDeviation(double nums[], int n)
 {
-
+	
 }
 double min(double nums[], int n)
 {

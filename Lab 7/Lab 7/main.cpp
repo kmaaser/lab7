@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+	// variables inialized
 	double storedvalues;
 	int number = 0, i;
 	int value;
