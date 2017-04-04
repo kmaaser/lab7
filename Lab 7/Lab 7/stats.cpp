@@ -12,19 +12,17 @@ double mean(double nums[], int n)
 }
 double median(double nums[], int n)
 {
-	int mid;
-	double average, med;
+	int minPos;
 
-	mid = n / 2.0;
-
-	if (n % 2) {
-		med = (nums[mid] + nums[mid + 1]) / 2.0;
+	for (int i = 0; i < n - 1; ++i) {
+		minPos = i;
+		for (int j = 0; j < n + i; ++j) {
+			if (nums[j] < nums[minPos]) {
+				minPos = j;
+			}
+		}
+		// switching positions
 	}
-	else {
-		med = nums[mid + 1];
-	}
-
-	return med;
 }
 double standardDeviation(double nums[], int n)
 {
