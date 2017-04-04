@@ -7,21 +7,17 @@ int main()
 {
 	double storedvalues;
 	int number = 0, i;
-	int value = 0;
+	int value;
 	
-	cout << "Enter number of values: ";
+	cout << "Enter number of values: " << endl;
 	cin >> value;
-	const int value2 = value;
-	int myarray[value2];
 
-	do {
+	int myarray[10000];
+	for (int i = 0; i < value; ++i) {
 		cout << "Enter number " << number + 1 << " : " << endl;
 		cin >> storedvalues;
-		
-		for (i = 0; i < value; ++i) {
-			myarray[i] = i;
-		}
-	} while(value > 0);
+		myarray[i] = storedvalues;
+	}
 
 	cout << mean << endl;
 	cout << median << endl;
