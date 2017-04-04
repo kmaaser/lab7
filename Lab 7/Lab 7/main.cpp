@@ -6,15 +6,18 @@ using namespace std;
 int main()
 {
 	double storedvalues;
-	int number = 0, i, value;
+	int number = 0, i;
+	int vaule = 0;
+	const int value2 = value;
 
 	cout << "Enter number of values: ";
 	cin >> value;
+	int myarray[value];
 
 	do {
 		cout << "Enter number " << number + 1 << " : " << endl;
 		cin >> storedvalues;
-		int myarray[value];
+		
 		for (i = 0; i < value; ++i) {
 			myarray[i] = i;
 		}
