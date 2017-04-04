@@ -4,12 +4,10 @@
 double mean(double nums[], int n)
 {
 	double avg = 0, sum = 0;
-	int size;
-	size = sizeof(nums) / sizeof(nums[0]);
-	for (int i = 0; i < size, ++i) {
+	for (int i = 0; i < n; ++i) {
 		sum += nums[i];
 	}
-	avg = ((float)sum) / size;
+	avg = sum / n;
 	return avg;
 }
 double median(double nums[], int n)
