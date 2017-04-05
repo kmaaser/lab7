@@ -4,6 +4,8 @@
 #ifndef __STATS__H
 #define __STATS__H
 
+//declarations of the methods
+
 //returns average of numbers
 double mean(double nums[], int n);
 
