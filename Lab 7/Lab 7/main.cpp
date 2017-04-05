@@ -11,7 +11,7 @@ int main()
 	int value;
 
 	//asks user for how many values they want to enter
-	cout << "Enter number of values: " << endl;
+	cout << "Enter number of values: ";
 	cin >> value;
 
 	//array is size 10000 because we can assume
@@ -20,11 +20,12 @@ int main()
 
 	//making sure the numbers are added to myarray
 	for (int i = 0; i < value; ++i) {
-		cout << "Enter number " << number + 1 << " : " << endl;
+		cout << "Enter number " << number + 1 << " : ";
 		cin >> storedvalues;
 		myarray[i] = storedvalues;
 	}
 	//prints out the mean, median, standard deviation, min, max
+
 	cout << mean << endl;
 	cout << median << endl;
 	cout << standardDeviation << endl;

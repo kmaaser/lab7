@@ -1,0 +1,14 @@
+﻿  stats.cpp
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(35): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(43): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(78): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(87): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(95): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  main.cpp
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\main.cpp(25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\main.cpp(10): warning C4101: 'i': unreferenced local variable
+  Generating Code...
+  Lab 7.vcxproj -> C:\Users\Karenna Maaser\Documents\GitHub\lab7\Lab 7\Debug\Lab 7.exe
+  Lab 7.vcxproj -> C:\Users\Karenna Maaser\Documents\GitHub\lab7\Lab 7\Debug\Lab 7.pdb (Partial PDB)
