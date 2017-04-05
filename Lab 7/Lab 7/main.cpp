@@ -7,7 +7,7 @@ int main()
 {
 	// variables inialized
 	double storedvalues;
-	int number = 0, i;
+	int number = 1, i;
 	int value;
 
 	//asks user for how many values they want to enter
@@ -20,7 +20,7 @@ int main()
 
 	//making sure the numbers are added to myarray
 	for (int i = 0; i < value; ++i) {
-		cout << "Enter number " << number + 1 << " : ";
+		cout << "Enter number " << number++ << " : ";
 		cin >> storedvalues;
 		myarray[i] = storedvalues;
 	}
