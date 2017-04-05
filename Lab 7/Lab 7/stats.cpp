@@ -4,7 +4,7 @@
 double mean(double nums[], int n)
 {
 	//initalize variables
-	double avg = 0, sum = 0;
+	double avg = 0.0, sum = 0.0;
 
 	//going through the array and adding the number
 	//at that spot to the sum

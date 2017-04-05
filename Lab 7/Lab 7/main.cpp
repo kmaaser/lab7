@@ -8,7 +8,7 @@ int main()
 	// variables inialized
 	double storedvalues;
 	int number = 1, i;
-	int value;
+	double value;
 
 	//asks user for how many values they want to enter
 	cout << "Enter number of values: ";
@@ -26,10 +26,10 @@ int main()
 	}
 	//prints out the mean, median, standard deviation, min, max
 
-	cout << mean << endl;
-	cout << median << endl;
-	cout << standardDeviation << endl;
-	cout << min << endl;
-	cout << max << endl;
+	cout << "The mean is: " << mean << endl;
+	cout << "The median is: " << median << endl;
+	cout << "The standard Deviation is: " << standardDeviation << endl;
+	cout << "The minimum is: " << min << endl;
+	cout << "The maximum is: " << max << endl;
 	return 0;
 }
