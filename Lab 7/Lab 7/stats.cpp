@@ -3,32 +3,45 @@
 
 double mean(double nums[], int n)
 {
+	//initalize variables
 	double avg = 0, sum = 0;
+	//going through the array and adding the number
+	//at that spot to the sum
 	for (int i = 0; i < n; ++i) {
 		sum += nums[i];
 	}
+	//average is the sum of all the numbers
+	//divided by how many numbers there are
 	avg = sum / n;
 	return avg;
 }
 double median(double nums[], int n)
 {
-	int minPos;
-
+	//sorting the array
+	//inialize varaibles
+	int minPos, temp;
+	//first for loop to go through the array
+	//second to compare values
 	for (int i = 0; i < n - 1; ++i) {
 		minPos = i;
-		for (int j = 0; j < n + i; ++j) {
+		for (int j = i + 1; j < n; ++j) {
 			if (nums[j] < nums[minPos]) {
 				minPos = j;
 			}
 		}
 		// switching positions
+		temp = nums[i];
+		nums[i] = nums[minPos];
+		nums[minPos] = temp;
 	}
 }
 double standardDeviation(double nums[], int n)
 {
+	//initalize variables
 	double standardDeviation = 0.0;
-
+	//giving starting values for varibables
 	double avg = 0.0, sum = 0.0;
+
 	for (int i = 0; i < n; ++i) {
 		sum += nums[i];
 	}
@@ -42,8 +55,13 @@ double standardDeviation(double nums[], int n)
 }
 double min(double nums[], int n)
 {
+	//initalize variables
+	//setting the first item in the array to position 0
 	int smallest = nums[0];
-
+	//for loop going though the array
+	//also comparing values
+	//if a new smaller number is found
+	//it is replaced
 	for(int i = 0; i < n; ++i) {
 		if (nums[i] < smallest) {
 			smallest = nums[i];
@@ -53,8 +71,13 @@ double min(double nums[], int n)
 }
 double max(double nums[], int n)
 {
+	//initalize variables
+	//setting the largest to the first position
 	int largest = nums[0];
-
+	//for loop to go through the array
+	//compares values to find the largest
+	//if a new larger number is found
+	//it is set to the new largest number
 	for (int i = 0; i < n; ++i) {
 		if (nums[i] > largest) {
 			largest = nums[i];
