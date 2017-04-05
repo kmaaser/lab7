@@ -1,4 +1,6 @@
 // stats.cpp
+#include <iostream>
+using namespace std;
 #include "stats.h"
 
 double mean(double nums[], int n)
