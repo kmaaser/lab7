@@ -20,18 +20,6 @@ double mean(double nums[], int n)
 }
 double median(double nums[], int n)
 {
-	double med;
-	
-	if ((n % 2) == 0) {
-		med = (nums[n / 2] + nums[(n / 2) - 1]) / 2.0;
-	}
-	else {
-		med = nums[n / 2];
-	}
-	return med;
-}
-
-void sort(double nums[], int n) {
 	for(int i = 1; i < n; ++i)
 	{
 		for(int j = i; j > 0 && (nums[j]<nums[j-1]); --j)
@@ -41,6 +29,16 @@ void sort(double nums[], int n) {
 			nums[j]=t;
 		    }
 	}
+	
+	double med;
+	
+	if ((n % 2) == 0) {
+		med = (nums[n / 2] + nums[(n / 2) - 1]) / 2.0;
+	}
+	else {
+		med = nums[n / 2];
+	}
+	return med;
 }
 
 double standardDeviation(double nums[], int n)
