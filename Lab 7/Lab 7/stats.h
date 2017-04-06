@@ -6,18 +6,27 @@
 
 //declarations of the methods
 
-//returns average of numbers
-double mean(double nums[], int n);
+//private helper methods
+private:
+  void sort(double nums[], int n);
+  bool less(double v, double w);
+  void exch(double nums[], int i, int j);
 
-//returns median of numbers
-double median(double nums[], int n);
+//public methods
+public:
 
-//returns standard deviation of numbers
-double standardDeviation(double nums[], int n);
+  //returns average of numbers
+  double mean(double nums[], int n);
+
+  //returns median of numbers
+  double median(double nums[], int n);
+
+  //returns standard deviation of numbers
+  double standardDeviation(double nums[], int n);
 
 
-//returns minimum of numbers
-double min(double nums[], int n);
+  //returns minimum of numbers
+  double min(double nums[], int n);
 
 
 // returns maximum of numbers
