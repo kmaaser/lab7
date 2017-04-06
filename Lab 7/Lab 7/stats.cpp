@@ -20,6 +20,7 @@ double mean(double nums[], int n)
 }
 double median(double nums[], int n)
 {
+	//these loops sort the array
 	for(int i = 1; i < n; ++i)
 	{
 		for(int j = i; j > 0 && (nums[j]<nums[j-1]); --j)
@@ -29,12 +30,13 @@ double median(double nums[], int n)
 			nums[j]=t;
 		    }
 	}
-	
+	//variables initalized
 	double med;
-	
+	//checks to see if the length is even
 	if ((n % 2) == 0) {
 		med = (nums[n / 2] + nums[(n / 2) - 1]) / 2.0;
 	}
+	//checks to see if the length is odd
 	else {
 		med = nums[n / 2];
 	}
@@ -48,12 +50,13 @@ double standardDeviation(double nums[], int n)
 
 	//giving starting values for varibables
 	double avg = 0.0, sum = 0.0;
-
+	//loop goes through the array and adds them to the sum
 	for (int i = 0; i < n; ++i) {
 		sum += nums[i];
 	}
+	//finds the average
 	avg = sum / n;
-
+	//standard deviation formula
 	for (int i = 0; i < n; ++i) {
 		standardDeviation += pow(nums[i] - avg, 2);
 	}
