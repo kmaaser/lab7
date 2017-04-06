@@ -71,7 +71,7 @@ double min(double nums[], int n)
 {
 	//initalize variables
 	//setting the first item in the array to position 0
-	int smallest = nums[0];
+	double smallest = nums[0];
 
 	//for loop going though the array
 	//also comparing values
@@ -88,7 +88,7 @@ double max(double nums[], int n)
 {
 	//initalize variables
 	//setting the largest to the first position
-	int largest = nums[0];
+	double largest = nums[0];
 
 	//for loop to go through the array
 	//compares values to find the largest

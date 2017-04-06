@@ -1,9 +1,2 @@
 ﻿  stats.cpp
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(37): error C3861: 'lessDouble': identifier not found
 c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(39): error C3861: 'exch': identifier not found
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(79): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(87): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(96): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(104): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  main.cpp
-  Generating Code...
