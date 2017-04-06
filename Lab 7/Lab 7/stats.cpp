@@ -20,24 +20,8 @@ double mean(double nums[], int n)
 }
 double median(double nums[], int n)
 {
-	//sorting the array
-	//inialize varaibles
-	int minPos, temp, med;
-
-	//first for loop to go through the array
-	//second to compare values
-	for (int i = 0; i < n - 1; ++i) {
-		minPos = i;
-		for (int j = i + 1; j < n; ++j) {
-			if (nums[j] < nums[minPos]) {
-				minPos = j;
-			}
-		}
-		// switching positions
-		temp = nums[i];
-		nums[i] = nums[minPos];
-		nums[minPos] = temp;
-	}
+	double med;
+	
 	if ((n % 2) == 0) {
 		med = (nums[n / 2] + nums[(n / 2) - 1]) / 2.0;
 	}
@@ -46,6 +30,30 @@ double median(double nums[], int n)
 	}
 	return med;
 }
+
+private void sort(double nums[], int n)
+{
+	for(int i = 1; i < n; ++i)
+	{
+		for(int j = i; j > 0 && less(nums[j]; nums[j-1]; --j)
+		    {
+			    exch(a,j,j-1);
+		    }
+	}
+}
+		    
+private boolean less(double v, double w)
+{
+	return v<w;
+}
+		    
+private void exch(double nums[], int i, int j)
+{
+	double t = nums[i];
+	nums[i] = nums[j];
+	nums[j] = t;
+}
+
 double standardDeviation(double nums[], int n)
 {
 	//initalize variables
