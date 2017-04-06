@@ -4,7 +4,7 @@
 #ifndef __STATS__H
 #define __STATS__H
 
-Class stats{
+class stats{
 //declarations of the methods
 
 //private helper methods
