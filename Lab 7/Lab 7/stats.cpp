@@ -36,16 +36,11 @@ void sort(double nums[], int n) {
 	{
 		for(int j = i; j > 0 && (nums[j]<nums[j-1]); --j)
 		    {
-			    exch(nums,j,j-1);
+			double t = nums[j];
+			nums[j]=nums[j-1];
+			nums[j]=t;
 		    }
 	}
-}
-		    
-void exch(double nums[], int i, int j)
-{
-	double t = nums[i];
-	nums[i] = nums[j];
-	nums[j] = t;
 }
 
 double standardDeviation(double nums[], int n)
