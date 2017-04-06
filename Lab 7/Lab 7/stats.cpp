@@ -34,7 +34,7 @@ double median(double nums[], int n)
 void sort(double nums[], int n) {
 	for(int i = 1; i < n; ++i)
 	{
-		for(int j = i; j > 0 && less(nums[j], nums[j-1], --j)
+		for(int j = i; j > 0 && less(nums[j], nums[j-1]); --j)
 		    {
 			    exch(a,j,j-1);
 		    }
