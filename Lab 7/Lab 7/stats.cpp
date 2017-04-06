@@ -31,23 +31,22 @@ double median(double nums[], int n)
 	return med;
 }
 
-private void sort(double nums[], int n)
-{
+void sort(double nums[], int n) {
 	for(int i = 1; i < n; ++i)
 	{
-		for(int j = i; j > 0 && less(nums[j]; nums[j-1]; --j)
+		for(int j = i; j > 0 && less(nums[j], nums[j-1], --j)
 		    {
 			    exch(a,j,j-1);
 		    }
 	}
 }
 		    
-private boolean less(double v, double w)
+bool less(double v, double w)
 {
 	return v<w;
 }
 		    
-private void exch(double nums[], int i, int j)
+void exch(double nums[], int i, int j)
 {
 	double t = nums[i];
 	nums[i] = nums[j];
