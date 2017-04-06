@@ -34,16 +34,11 @@ double median(double nums[], int n)
 void sort(double nums[], int n) {
 	for(int i = 1; i < n; ++i)
 	{
-		for(int j = i; j > 0 && lessDouble(nums[j], nums[j-1]); --j)
+		for(int j = i; j > 0 && (nums[j]<nums[j-1]); --j)
 		    {
 			    exch(nums,j,j-1);
 		    }
 	}
-}
-		    
-bool lessDouble(double v, double w)
-{
-	return v<w;
 }
 		    
 void exch(double nums[], int i, int j)
