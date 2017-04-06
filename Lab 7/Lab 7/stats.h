@@ -10,7 +10,7 @@ Class stats{
 //private helper methods
 private:
   void sort(double nums[], int n);
-  bool less(double v, double w);
+  bool lessDouble(double v, double w);
   void exch(double nums[], int i, int j);
 
 //public methods
