@@ -36,7 +36,7 @@ void sort(double nums[], int n) {
 	{
 		for(int j = i; j > 0 && lessDouble(nums[j], nums[j-1]); --j)
 		    {
-			    exch(a,j,j-1);
+			    exch(nums,j,j-1);
 		    }
 	}
 }
