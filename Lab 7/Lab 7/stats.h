@@ -4,6 +4,7 @@
 #ifndef __STATS__H
 #define __STATS__H
 
+Class stats{
 //declarations of the methods
 
 //private helper methods
@@ -31,4 +32,5 @@ public:
 
 // returns maximum of numbers
 double max(double nums[], int n);
+};
 #endif
