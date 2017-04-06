@@ -7,7 +7,7 @@ int main()
 {
 	// variables inialized
 	double storedvalues;
-	int number = 1, i;
+	int number = 1;
 	double value;
 
 	//asks user for how many values they want to enter
@@ -16,7 +16,7 @@ int main()
 
 	//array is size 10000 because we can assume
 	//no more than 10000 will be entered
-	int myarray[10000];
+	double myarray[10000];
 
 	//making sure the numbers are added to myarray
 	for (int i = 0; i < value; ++i) {

@@ -1,16 +1,9 @@
-﻿  main.cpp
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\main.cpp(25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\main.cpp(10): warning C4101: 'i': unreferenced local variable
+﻿  stats.cpp
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(37): error C3861: 'lessDouble': identifier not found
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(39): error C3861: 'exch': identifier not found
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(79): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(87): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(96): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(104): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  main.cpp
   Generating Code...
-  Compiling...
-  stats.cpp
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(37): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(42): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(45): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(72): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(80): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(89): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\karenna maaser\documents\github\lab7\lab 7\lab 7\stats.cpp(97): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  Generating Code...
-  Lab 7.vcxproj -> C:\Users\Karenna Maaser\Documents\GitHub\lab7\Lab 7\Debug\Lab 7.exe
-  Lab 7.vcxproj -> C:\Users\Karenna Maaser\Documents\GitHub\lab7\Lab 7\Debug\Lab 7.pdb (Partial PDB)
