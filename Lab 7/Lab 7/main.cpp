@@ -26,7 +26,7 @@ int main()
 	}
 	//prints out the mean, median, standard deviation, min, max
 
-	cout << "The mean is: " << mean << endl;
+	cout << "The mean is: " << stats::mean(myarray, value) << endl;
 	cout << "The median is: " << median << endl;
 	cout << "The standard Deviation is: " << standardDeviation << endl;
 	cout << "The minimum is: " << min << endl;
